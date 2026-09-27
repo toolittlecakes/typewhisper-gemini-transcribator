@@ -1,0 +1,19 @@
+{
+    "id": "com.sne.gemini-transcribator",
+    "name": "Gemini Transcribator",
+    "version": "0.4.0",
+    "minHostVersion": "1.6.0",
+    "sdkCompatibilityVersion": "v1",
+    "minOSVersion": "14.0",
+    "supportedArchitectures": [
+        "arm64"
+    ],
+    "author": "toolittlecakes",
+    "description": "Gemini transcription with a selectable model, editable prompt and reasoning level. Audio is sent inline as compact M4A. Requires a Gemini API key.",
+    "category": "transcription",
+    "hosting": "cloud",
+    "iconSystemName": "sparkles",
+    "principalClass": "GeminiTranscribatorPlugin",
+    "requiresAPIKey": true,
+    "homepageURL": "https://github.com/toolittlecakes/typewhisper-gemini-transcribator"
+}
